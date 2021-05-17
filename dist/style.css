@@ -31212,6 +31212,22 @@ body {
   display:table;                      /* Actually FF 20+ */
 }
 
+.fa-chevron-down {
+  display: none !important;
+}
+
+.fa-chevron-right {
+  display: inline-block !important;
+}
+
+.open .fa-chevron-down {
+  display: inline-block !important;
+}
+
+.open .fa-chevron-right {
+  display: none !important;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

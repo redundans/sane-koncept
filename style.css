@@ -35,3 +35,18 @@ body {
     break-inside: avoid-column;         /* IE 11 */
     display:table;                      /* Actually FF 20+ */
 }
+
+.fa-chevron-down {
+	@apply hidden !important;
+}
+
+.fa-chevron-right {
+	@apply inline-block !important;
+}
+
+.open .fa-chevron-down {
+	@apply inline-block !important;
+}
+.open .fa-chevron-right {
+	@apply hidden !important;
+}
